@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-and-deploy:
-    uses: Sunaina0510/.github/workflow-templates/java-pipeline.yml@main
+    uses: Sunaina0510/.github/workflows/java-pipeline.yml@main
     with:
       docker-image: ghcr.io/sunainaa0510/java-test/java-test-app
       sonar-enabled: true
